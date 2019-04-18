@@ -30,3 +30,97 @@ The final design incorporated two 60 Hz notch filters, a 1 and a 7 Hz highpass f
 The PCB was designed in KiCAD. A two layer board was used, and no vias were necessary for all of the traces to be connected. Screw terminals were implemented to allow for easy connection of electrodes and power sources. If you are looking to learn how to use KiCAD, the youtube tutorial made by DigiKey is an extremely helpful introductory resource that will take you through all of the necessary elements of KiCAD, including schematic design, component choice and implementation, as well as PCB design. https://www.youtube.com/watch?v=vaCVh2SAZY4&t=2s
 
 ![PCB](https://github.com/merlin-neurotech/Hardware-Team/blob/master/EEGPCB.png)
+
+The list of parts used is shown in the tables below. They contain the reference number that correlates to the KiCAD design, the dimensions of each part, the part number and link for DigiKey, and the overall price of each part used. 
+
+
+|Reference|Quantity|Value|Footprint|
+|---------|--------|-----|---------|
+|C10|1|1u|Capacitor_THT:CP_Radial_D5.0mm_P2.00mm|
+|C13|1|100n|Capacitor_THT:CP_Radial_D5.0mm_P2.00mm|
+|C14|1|10n|Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm|
+|C1 C11 C2 C4 C5|5|220n|Capacitor_THT:CP_Radial_D4.0mm_P1.50mm|
+|C12 C3|2|10u|Capacitor_THT:CP_Radial_D6.3mm_P2.50mm|
+|C6 C7 C8 C9|4|0.1u|Capacitor_THT:CP_Radial_D5.0mm_P2.00mm|
+|J1|1|Screw_Terminal_01x02|TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Vertical|
+|J2|1|Screw_Terminal_01x03|TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Vertical|
+|R1 R15|2|220k|Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal|
+|R10 R13|2|100k|Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal|
+|R12|1|1M|Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal|
+|R16|1|1k|Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal|
+|R2 R8|2|270k|Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal|
+|R3|1|560|Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal|
+|R11 R4|2|22k|Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal|
+|R14 R5|2|12|Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal|
+|R6|1|47k|Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal|
+|R7 R9|2|180k|Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal|
+|U1|1|AD620|Package_DIP:DIP-8_W7.62mm|
+|U2 U3 U4 U5 U6|5|LM741|Package_DIP:DIP-8_W7.62mm|
+
+
+Reference
+Quantity
+MPN
+Price
+Total Price
+Part Page
+C10
+1
+ESK105M050AC3AA
+0.23
+0.23
+https://www.digikey.ca/product-detail/en/kemet/ESK105M050AC3AA/399-6596-ND/3083011
+C13
+1
+UVR1H0R1MDD
+0.34
+0.34
+https://www.digikey.ca/product-detail/en/nichicon/UVR1H0R1MDD/493-1095-ND/588836
+C14
+1
+K103K15X7RF5TL2
+0.34
+0.34
+https://www.digikey.ca/product-detail/en/vishay-bc-components/K103K15X7RF5TL2/BC1078CT-ND/286700
+C1 C11 C2 C4 C5
+5
+UVR2AR22MDD1TD
+0.33
+1.65
+https://www.digikey.ca/product-detail/en/nichicon/UVR2AR22MDD1TD/493-12824-1-ND/4328497
+C12 C3
+2
+ECE-A1HKS100
+0.37
+0.74
+https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ECE-A1HKS100/P997-ND/160577
+C6 C7 C8 C9
+4
+UVR1H0R1MDD
+0.34
+1.36
+https://www.digikey.ca/product-detail/en/nichicon/UVR1H0R1MDD/493-1095-ND/588836
+J1
+1
+OSTTC020162
+1.22
+1.22
+https://www.digikey.ca/product-detail/en/on-shore-technology-inc/OSTTC020162/ED2600-ND/614549
+J2
+1
+OSTTC032162
+1.21
+1.21
+https://www.digikey.ca/product-detail/en/on-shore-technology-inc/OSTTC032162/ED2610-ND/614559
+U1
+1
+AD620ANZ
+16.60
+          16.60
+https://www.digikey.ca/product-detail/en/analog-devices-inc/AD620ANZ/AD620ANZ-ND/750967
+U2 U3 U4 U5 U6
+5
+LM741CNNS/NOPB-ND
+1.31
+6.55
+https://www.digikey.ca/product-detail/en/texas-instruments/LM741CN-NOPB/LM741CNNS-NOPB-ND/6322
