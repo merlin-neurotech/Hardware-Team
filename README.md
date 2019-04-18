@@ -27,3 +27,6 @@ The final design incorporated two 60 Hz notch filters, a 1 and a 7 Hz highpass f
 
 ![schematic](https://github.com/merlin-neurotech/Hardware-Team/blob/master/EEGSchematic.png)
 
+The PCB was designed in KiCAD. A two layer board was used, and no vias were necessary for all of the traces to be connected. Screw terminals were implemented to allow for easy connection of electrodes and power sources. If you are looking to learn how to use KiCAD, the youtube tutorial made by DigiKey is an extremely helpful introductory resource that will take you through all of the necessary elements of KiCAD, including schematic design, component choice and implementation, as well as PCB design. https://www.youtube.com/watch?v=vaCVh2SAZY4&t=2s
+
+![PCB](https://github.com/merlin-neurotech/Hardware-Team/blob/master/EEGPCB.png)
