@@ -70,3 +70,16 @@ The list of parts used is shown in the tables below. They contain the reference 
 |J2|1|OSTTC032162|1.21|1.21|https://www.digikey.ca/product-detail/en/on-shore-technology-inc/OSTTC032162/ED2610-ND/614559|
 |U1|1|AD620ANZ|16.60|16.60|https://www.digikey.ca/product-detail/en/analog-devices-inc/AD620ANZ/AD620ANZ-ND/750967|
 |U2 U3 U4 U5 U6|5|LM741CNNS/NOPB-ND|1.31|6.55|https://www.digikey.ca/product-detail/en/texas-instruments/LM741CN-NOPB/LM741CNNS-NOPB-ND/6322|
+
+The total cost of the parts purchased from DigiKey was $30.24. An additional 15 resistors were used but they were purchased as a boxset as they can be used for many applications that extend beyond this. In general, single resistors on digikey cost about $0.15, bringing the total cost to $32.49. Getting the PCB fabricated requires about $15 or less if you go with a company like JLCPCB, as they often have sales and deals that can make the PCB fabrication cost far less. Finally, an Arduino Uno can be ordered from Amazon for $15. This brings the total cost to $47.49 or less, depending on cost of PCB fabrication, and $62.49 if you’d like to use an Arduino alongside it. 
+
+Once the data was sent to the computer, code from user cah6 on GitHub was used to display the received signals. His open source code base allows for alpha and beta signals to be displayed in real time, and is available for any teams to use. The program he uses is called processing, which is also free to download and use. On top of this, processing has many resources on their website that can guide you through the process of learning how to code with it. One of these resources is a tutorial on how to save data in real time, allowing you to use the data acquired later on. Both links for these resources are given below.
+
+https://processing.org/examples/savefile1.html
+https://github.com/cah6/EEG
+
+# Limitations and Future Variations
+For future iterations of the project, the largest improvements that can be easily made are in gain, channels, and data transfer. By using an Arduino, the same PCB can be used but can have four channels instead of just two. On top of this, once an Arduino is used the PCB is no longer reliant on the computer’s sound card, and therefore doesn’t get voltages above 1V cut off. This allows for a larger gain to be used so that the signal can be more easily visualized. Finally, an Arduino allows for Bluetooth to be easily used with a simple chip that can be purchased, making the board no longer have to be directly wired to the computer. 
+
+Another improvement is with signal quality. The electrodes used were dry, as well the pads were quite old and therefore contributed to poor signal quality. If better electrodes were purchased, and electrode gel to go with it, the signal would be vastly improved allowing for better data acquisition.
+For more extensive variations to the project, it would most likely involve implementing more complex circuits and hardware to extend the channel range of the board. By using multiplexers and additional filters, a 64 channel board would be a good stretch goal, but more funds would be needed. This is due to a larger and costlier PCB and components, as well as the cost of obtaining enough electrodes. 
