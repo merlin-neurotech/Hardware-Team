@@ -58,69 +58,15 @@ The list of parts used is shown in the tables below. They contain the reference 
 |U2 U3 U4 U5 U6|5|LM741|Package_DIP:DIP-8_W7.62mm|
 
 
-Reference
-Quantity
-MPN
-Price
-Total Price
-Part Page
-C10
-1
-ESK105M050AC3AA
-0.23
-0.23
-https://www.digikey.ca/product-detail/en/kemet/ESK105M050AC3AA/399-6596-ND/3083011
-C13
-1
-UVR1H0R1MDD
-0.34
-0.34
-https://www.digikey.ca/product-detail/en/nichicon/UVR1H0R1MDD/493-1095-ND/588836
-C14
-1
-K103K15X7RF5TL2
-0.34
-0.34
-https://www.digikey.ca/product-detail/en/vishay-bc-components/K103K15X7RF5TL2/BC1078CT-ND/286700
-C1 C11 C2 C4 C5
-5
-UVR2AR22MDD1TD
-0.33
-1.65
-https://www.digikey.ca/product-detail/en/nichicon/UVR2AR22MDD1TD/493-12824-1-ND/4328497
-C12 C3
-2
-ECE-A1HKS100
-0.37
-0.74
-https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ECE-A1HKS100/P997-ND/160577
-C6 C7 C8 C9
-4
-UVR1H0R1MDD
-0.34
-1.36
-https://www.digikey.ca/product-detail/en/nichicon/UVR1H0R1MDD/493-1095-ND/588836
-J1
-1
-OSTTC020162
-1.22
-1.22
-https://www.digikey.ca/product-detail/en/on-shore-technology-inc/OSTTC020162/ED2600-ND/614549
-J2
-1
-OSTTC032162
-1.21
-1.21
-https://www.digikey.ca/product-detail/en/on-shore-technology-inc/OSTTC032162/ED2610-ND/614559
-U1
-1
-AD620ANZ
-16.60
-          16.60
-https://www.digikey.ca/product-detail/en/analog-devices-inc/AD620ANZ/AD620ANZ-ND/750967
-U2 U3 U4 U5 U6
-5
-LM741CNNS/NOPB-ND
-1.31
-6.55
-https://www.digikey.ca/product-detail/en/texas-instruments/LM741CN-NOPB/LM741CNNS-NOPB-ND/6322
+|Reference|Quantity|MPN|Price|Total Price|Part Page|
+|---------|--------|---|-----|-----------|---------|
+|C10|1|ESK105M050AC3AA|0.23|0.23|https://www.digikey.ca/product-detail/en/kemet/ESK105M050AC3AA/399-6596-ND/3083011|
+|C13|1|UVR1H0R1MDD|0.34|0.34|https://www.digikey.ca/product-detail/en/nichicon/UVR1H0R1MDD/493-1095-ND/588836|
+|C14|1|K103K15X7RF5TL2|0.34|0.34|https://www.digikey.ca/product-detail/en/vishay-bc-components/K103K15X7RF5TL2/BC1078CT-ND/286700|
+|C1 C11 C2 C4 C5|5|UVR2AR22MDD1TD|0.33|1.65|https://www.digikey.ca/product-detail/en/nichicon/UVR2AR22MDD1TD/493-12824-1-ND/4328497|
+|C12 C3|2|ECE-A1HKS100|0.37|0.74|https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ECE-A1HKS100/P997-ND/160577|
+|C6 C7 C8 C9|4|UVR1H0R1MDD|0.34|1.36|https://www.digikey.ca/product-detail/en/nichicon/UVR1H0R1MDD/493-1095-ND/588836|
+|J1|1|OSTTC020162|1.22|1.22|https://www.digikey.ca/product-detail/en/on-shore-technology-inc/OSTTC020162/ED2600-ND/614549|
+|J2|1|OSTTC032162|1.21|1.21|https://www.digikey.ca/product-detail/en/on-shore-technology-inc/OSTTC032162/ED2610-ND/614559|
+|U1|1|AD620ANZ|16.60|16.60|https://www.digikey.ca/product-detail/en/analog-devices-inc/AD620ANZ/AD620ANZ-ND/750967|
+|U2 U3 U4 U5 U6|5|LM741CNNS/NOPB-ND|1.31|6.55|https://www.digikey.ca/product-detail/en/texas-instruments/LM741CN-NOPB/LM741CNNS-NOPB-ND/6322|
