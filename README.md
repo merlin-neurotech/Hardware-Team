@@ -25,5 +25,5 @@ Other than the above issues with getting a functional design and ordering parts,
 # Final Design
 The final design incorporated two 60 Hz notch filters, a 1 and a 7 Hz highpass filter, and a 31 Hz lowpass filter. The two 60 Hz notch filters allowed for removal of the majority of power line noise, while the 1, 7 and 31 Hz filters allowed for removal of the excess data that isn’t within the range of the alpha and beta waves. The instrumentation amplifier provides a gain of about 89 and the potentiometer implemented at the final op amp allows for additional gain of between 83 and 455. Depending on the person, this means that the resulting waveform will most likely have an amplitude of slightly under 1V, a very reasonable voltage to measure.
 
-![schematic](https://github.com/merlin-neurotech/Hardware-Team/blob/master/schematic for eeg.png)
+![schematic](https://github.com/merlin-neurotech/Hardware-Team/blob/master/EEGSchematic.png)
 
